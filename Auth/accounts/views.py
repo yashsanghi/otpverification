@@ -101,7 +101,7 @@ class ValidateOTP(APIView):
 						})
 			else:
 				return Response({
-					'status': 'False',
+					'status': False,
 					'details': 'First proceed via sending otp request'
 					})
 
